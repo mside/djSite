@@ -1,0 +1,17 @@
+$primary-font-colour: #d3d2d2;
+
+$hover-font-colour: white;
+
+$highlight-colour: #92cdcf;
+
+$gradient01:
+    -webkit-gradient(linear,  left top, left bottom,  color-stop(50%, #31353d),color-stop(50%, #445878)),
+    -webkit-linear-gradient(top,  #31353d 50%,#445878 50%),
+    -o-linear-gradient(top,  #31353d 50%,#445878 50%),
+    linear-gradient(to bottom,  #31353d 50%,#445878 50%);
+
+$gradient02:
+    -webkit-linear-gradient(top,  #445878 50%,#31353d 50%),
+    -webkit-gradient(linear,  left top, left bottom,  color-stop(50%, #445878),color-stop(50%, #31353d)),
+    -o-linear-gradient(top,  #445878 50%,#31353d 50%),
+    linear-gradient(to bottom,  #445878 50%,#31353d 50%);

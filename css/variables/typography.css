@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'code-bold';
+  src: url("../assets/fonts/code_bold-webfont.woff2") format("woff2"), url("../assets/fonts/code_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gravity-light';
+  src: url("../assets/fonts/gravity-light-webfont.woff2") format("woff2"), url("../assets/fonts/gravity-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 21, ../../sass/variables/typography.scss */
+h1 {
+  font-family: "code-bold", Arial, Helvetica, sans-serif;
+  font-size: 3.125em;
+  text-transform: uppercase;
+}
+
+/* line 27, ../../sass/variables/typography.scss */
+h2 {
+  font-family: "gravity-light", Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+/* line 33, ../../sass/variables/typography.scss */
+h3 {
+  font-family: "gravity-light", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+/* line 39, ../../sass/variables/typography.scss */
+p {
+  font-family: "gravity-light", Arial, Helvetica, sans-serif;
+  font-size: 1.25em;
+}
