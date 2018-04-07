@@ -1,0 +1,30 @@
+.nav-logo {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: $dark-background-color;
+}
+
+@media (min-width: 768px) {
+    .navbar.navbar-light .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar.navbar-light .navbar-nav > li {
+        display: inline-block;
+        float: none
+    }
+}
+
+// .navbar-toggler {
+//     //background-color: white;
+// }
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: $primary-font;
+    font-size: 1.4em;
+    color: white;
+    margin-right: 3px;
+}
