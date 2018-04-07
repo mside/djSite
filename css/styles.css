@@ -793,3 +793,8 @@ p {
   font-family: "gravity-light", Arial, Helvetica, sans-serif;
   font-size: 1.25em;
 }
+
+/* line 1, ../sass/components/nav.scss */
+.nav-logo {
+  width: 100px;
+}
