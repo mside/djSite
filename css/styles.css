@@ -798,3 +798,10 @@ p {
 .nav-logo {
   width: 100px;
 }
+
+/* line 13, ../sass/components/nav.scss */
+a.nav-link {
+  font-family: "code-bold", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #d3d2d2;
+}
