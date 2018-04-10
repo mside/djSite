@@ -1,0 +1,27 @@
+.hero__primary {
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero__primary--index {
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../assets/img/hero01.jpg);
+}
+
+.hero__pageTitle {
+    position: absolute;
+    width: 100vw;
+    top: 65vh;
+    color: white;
+    h1 {
+        text-align: center;
+    }
+}

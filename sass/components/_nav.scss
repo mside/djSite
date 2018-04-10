@@ -3,28 +3,30 @@
     margin-right: 10px;
 }
 
-.navbar {
-    background-color: $dark-background-color;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: $highlight-color;
 }
 
-@media (min-width: 768px) {
-    .navbar.navbar-light .navbar-nav {
-        width: 100%;
-        text-align: center;
-    }
-    .navbar.navbar-light .navbar-nav > li {
-        display: inline-block;
-        float: none
-    }
+.navbar-toggler {
+    background-color: $primary-font-color;
 }
-
-// .navbar-toggler {
-//     //background-color: white;
-// }
 
 .navbar-light .navbar-nav .nav-link {
     font-family: $primary-font;
-    font-size: 1.4em;
-    color: white;
-    margin-right: 3px;
+    font-size: 1.5em;
+    color: $primary-font-color;
+    margin-right: 6px;
+    &:hover {
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav-logo {
+        margin-right: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 20px;
+    }
 }

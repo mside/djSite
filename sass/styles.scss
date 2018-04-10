@@ -1,14 +1,19 @@
 @import 'base/base';
 
 @import 'helpers/normalize';
+@import 'helpers/mixins';
 
 @import 'variables/colors';
 @import 'variables/typography';
 //@import 'variables/breakpoints';
 
+//layouts
+@import 'layouts/layouts';
+
 // Objects
 
 // Components
 @import 'components/nav';
+@import 'components/hero';
 
 // Utilities
