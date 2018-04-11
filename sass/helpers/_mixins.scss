@@ -7,3 +7,9 @@
     background: linear-gradient(to bottom,  $top 50%, $bottom 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31353d', endColorstr='#445878',GradientType=0 ); /* IE6-9 */
 }
+
+@mixin borderRadius($size) {
+    -webkit-border-radius: $size + px;
+    -moz-border-radius: $size + px;
+    border-radius: $size + px;  
+}

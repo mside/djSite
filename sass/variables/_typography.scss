@@ -22,21 +22,28 @@ h1 {
     font-family: $primary-font;
     font-size: 3.125em;
     text-transform: uppercase;
+    text-align: center;
+    color: $primary-font-color;
 }
 
 h2 {
     font-family: $secondary-font;
     font-size: 2em;
     text-transform: capitalize;
+    color: $primary-font-color;
+    line-height: 2;
 }
 
 h3 {
     font-family: $secondary-font;
     font-size: 1.5em;
     text-transform: capitalize;
+    color: $primary-font-color;
+    line-height: 2;
 }
 
 p {
     font-family: $secondary-font;
     font-size: 1.25em;
+    color: $primary-font-color;
 }

@@ -1,6 +1,6 @@
 .hero__primary {
     height: 80vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 
 .hero__pageTitle {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     top: 65vh;
     color: white;
     h1 {

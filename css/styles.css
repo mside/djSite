@@ -772,38 +772,45 @@ h1 {
   font-family: "code-bold", Arial, Helvetica, sans-serif;
   font-size: 3.125em;
   text-transform: uppercase;
+  text-align: center;
+  color: #d3d2d2;
 }
 
-/* line 27, ../sass/variables/_typography.scss */
+/* line 29, ../sass/variables/_typography.scss */
 h2 {
   font-family: "gravity-light", Arial, Helvetica, sans-serif;
   font-size: 2em;
   text-transform: capitalize;
+  color: #d3d2d2;
+  line-height: 2;
 }
 
-/* line 33, ../sass/variables/_typography.scss */
+/* line 37, ../sass/variables/_typography.scss */
 h3 {
   font-family: "gravity-light", Arial, Helvetica, sans-serif;
   font-size: 1.5em;
   text-transform: capitalize;
+  color: #d3d2d2;
+  line-height: 2;
 }
 
-/* line 39, ../sass/variables/_typography.scss */
+/* line 45, ../sass/variables/_typography.scss */
 p {
   font-family: "gravity-light", Arial, Helvetica, sans-serif;
   font-size: 1.25em;
+  color: #d3d2d2;
 }
 
 /* line 1, ../sass/layouts/_layouts.scss */
 .background__primary--fullWidth {
   background-color: #31353d;
-  width: 100vw;
+  width: 100%;
 }
 
 /* line 6, ../sass/layouts/_layouts.scss */
 .bodyContainer__primary {
-  width: 100vw;
-  padding: 5em;
+  width: 100%;
+  padding: 1.5em;
   background: #31353d;
   /* Old browsers */
   background: -moz-linear-gradient(top, #31353d 50%, #445878 50%);
@@ -818,8 +825,8 @@ p {
 
 /* line 12, ../sass/layouts/_layouts.scss */
 .bodyContainer__secondary {
-  width: 100vw;
-  padding: 5em;
+  width: 100%;
+  padding: 1.5em;
   background: #445878;
   /* Old browsers */
   background: -moz-linear-gradient(top, #445878 50%, #31353d 50%);
@@ -830,6 +837,39 @@ p {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31353d', endColorstr='#445878',GradientType=0 );
   /* IE6-9 */
+}
+
+/* line 18, ../sass/layouts/_layouts.scss */
+.img__primary {
+  margin: 1em 0;
+}
+/* line 20, ../sass/layouts/_layouts.scss */
+.img__primary img {
+  max-width: 300px;
+  width: 100%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 29, ../sass/layouts/_layouts.scss */
+.paraContainer__primary {
+  max-width: 450px;
+}
+
+/* line 33, ../sass/layouts/_layouts.scss */
+.text--inline {
+  max-width: 450px;
+}
+/* line 35, ../sass/layouts/_layouts.scss */
+.text--inline h3 {
+  display: inline-block;
+}
+/* line 39, ../sass/layouts/_layouts.scss */
+.text--inline .text--right {
+  float: right;
 }
 
 /* line 1, ../sass/components/_nav.scss */
@@ -874,7 +914,7 @@ p {
 /* line 1, ../sass/components/_hero.scss */
 .hero__primary {
   height: 80vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -889,7 +929,7 @@ p {
 /* line 19, ../sass/components/_hero.scss */
 .hero__pageTitle {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   top: 65vh;
   color: white;
 }
