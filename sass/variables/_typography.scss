@@ -27,6 +27,15 @@ h1 {
 }
 
 h2 {
+    font-family: $primary-font;
+    font-size: 2.5em;
+    text-transform: capitalize;
+    text-align: center;
+    color: $highlight-color;
+    line-height: 2;
+}
+
+h3 {
     font-family: $secondary-font;
     font-size: 2em;
     text-transform: capitalize;
@@ -34,7 +43,7 @@ h2 {
     line-height: 2;
 }
 
-h3 {
+h4 {
     font-family: $secondary-font;
     font-size: 1.5em;
     text-transform: capitalize;

@@ -1,0 +1,17 @@
+.obj__button {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: 70px;
+    margin: 1em auto;
+    background-color: $highlight-color;
+    @include borderRadius(20);
+    font-family: $primary-font;
+    font-size: 1.5em;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Michael Side - DJ SIte Portfolio</title>
+        <title>Mike Side - DJ SIte Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,10 +21,13 @@
         <div class='background__primary--fullWidth'>
             <div class='container'>
                 <nav class='navbar navbar-light navbar-expand-lg'>
+                    <!-- brand -->
                     <a href="index.html"><img class='nav-logo' src='assets/img/logo-final.svg' alt='dj Portfolio logo'></a>
+                    <!-- Hamburger -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    <!-- collapse -->
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
@@ -53,6 +56,7 @@
                             </li>
                         </ul>
                     </div>
+                    
                 </nav>
             </div> 
         </div> <!-- END NAV -->
@@ -62,47 +66,59 @@
         </div>
     </div> <!-- END HEADER -->
 
+    <!-- BODY CONTENT -->
     <div class='bodyContainer__primary'>
-        <h1>Featured Event</h1>
+        <h2>Featured Event</h2>
         <div class='container'>
             <div class='row justify-content-center'>
                 <div class='img__primary col-md-4'>
                     <img src="assets/img/featEvent.jpg" alt="featured event mike side portfolio site">
                 </div>
                 <div class='col-md-6'>
-                    <h2>Geometry of Light</h2>
+                    <h3>Geometry of Light</h3>
                     <div class='text--inline'>
-                        <h3>Fun Dance Place</h3>
-                        <h3 class='text--right'>06/11/2018</h3>
+                        <h4>Fun Dance Place</h4>
+                        <h4 class='text--right'>06/11/2018</h4>
                     </div>
                     <div class='paraContainer__primary'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in tincidunt ante. Pellentesque sodales quis ante vitae viverra. Aenean laoreet mi in leo varius, ac consequat leo pretium. Nam vitae orci at magna gravida porta vel id leo. Sed scelerisque mollis ligula, nec bibendum leo imperdiet imperdiet.</p>
                     </div>
+                    <!-- BUTTON -->
+                    <form action="http://ticketmaster.com">
+                        <input type="submit" value="Buy Tix Now" class='obj__button' />
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 
     <div class='bodyContainer__secondary'>
-            <h1>Featured Event</h1>
-            <div class='container'>
-                <div class='row justify-content-center'>
-                    <div class='img__primary col-md-4'>
-                        <img src="assets/img/featEvent.jpg" alt="featured event mike side portfolio site">
+        <h2>Featured Music</h2>
+        <div class='container'>
+            <div class='row justify-content-center'>
+                <div class='img__primary col-md-4'>
+                        <iframe class='obj__iframe' src="https://bandcamp.com/EmbeddedPlayer/album=2954665381/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/transparent=true/" seamless><a href="http://kalibo.bandcamp.com/album/im-slippin-away-2">I&#39;m Slippin&#39; Away by Kalibo</a></iframe>
+                </div>
+                <div class='col-md-6'>
+                    <h3>My Inspo</h3>
+                    <div class='paraContainer__primary'>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in tincidunt ante. Pellentesque sodales quis ante vitae viverra. Aenean laoreet mi in leo varius, ac consequat leo pretium. Nam vitae orci at magna gravida porta vel id leo. Sed scelerisque mollis ligula, nec bibendum leo imperdiet imperdiet.</p>
                     </div>
-                    <div class='col-md-6'>
-                        <h2>Geometry of Light</h2>
-                        <div class='text--inline'>
-                            <h3>Fun Dance Place</h3>
-                            <h3 class='text--right'>06/11/2018</h3>
-                        </div>
-                        <div class='paraContainer__primary'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in tincidunt ante. Pellentesque sodales quis ante vitae viverra. Aenean laoreet mi in leo varius, ac consequat leo pretium. Nam vitae orci at magna gravida porta vel id leo. Sed scelerisque mollis ligula, nec bibendum leo imperdiet imperdiet.</p>
-                        </div>
-                    </div>
+                    <!-- BUTTON -->
+                    <form action="https://kalibo.bandcamp.com/">
+                        <input type="submit" value="Check It Out" class='obj__button' />
+                    </form>
                 </div>
             </div>
-    </div>
+        </div>
+     </div> <!-- END BODY CONTENT -->
+
+     <!-- FOOTER -->
+     <div class='background__secondary--fullWidth'>
+        <div class='container'>
+            
+        </div>
+     </div>
 
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

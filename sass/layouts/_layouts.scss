@@ -3,6 +3,11 @@
     width: 100%;
 }
 
+.background__secondary--fullWidth {
+    background-color: #333;
+    width: 100%;
+}
+
 .bodyContainer__primary {
     width: 100%;
     padding: 1.5em;
@@ -32,7 +37,7 @@
 
 .text--inline {
     max-width: 450px;
-    h3 {
+    h4 {
         display: inline-block;
     }
     
