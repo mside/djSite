@@ -819,7 +819,7 @@ p {
 
 /* line 6, ../sass/layouts/_layouts.scss */
 .background__secondary--fullWidth {
-  background-color: #333;
+  background-color: black;
   width: 100%;
 }
 
@@ -871,19 +871,14 @@ p {
 }
 
 /* line 34, ../sass/layouts/_layouts.scss */
-.paraContainer__primary {
-  max-width: 450px;
-}
-
-/* line 38, ../sass/layouts/_layouts.scss */
 .text--inline {
   max-width: 450px;
 }
-/* line 40, ../sass/layouts/_layouts.scss */
+/* line 36, ../sass/layouts/_layouts.scss */
 .text--inline h4 {
   display: inline-block;
 }
-/* line 44, ../sass/layouts/_layouts.scss */
+/* line 40, ../sass/layouts/_layouts.scss */
 .text--inline .text--right {
   float: right;
 }
@@ -985,4 +980,17 @@ p {
 .hero__pageTitle h1 {
   text-align: center;
   color: white;
+}
+
+/* line 1, ../sass/components/_footer.scss */
+.footer__upArrow {
+  padding: 10px;
+  max-width: 100px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 7, ../sass/components/_footer.scss */
+.footer__upArrow a {
+  text-decoration: none;
 }
