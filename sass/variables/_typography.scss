@@ -51,6 +51,15 @@ h4 {
     line-height: 2;
 }
 
+h5 {
+    font-family: $secondary-font;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: $primary-font-color;
+    text-align: center;
+    margin: 20px 0;
+}
+
 p {
     font-family: $secondary-font;
     font-size: 1.25em;

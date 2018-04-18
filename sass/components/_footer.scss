@@ -8,3 +8,21 @@
         text-decoration: none;
     }
 }
+
+.footer__socialBar {
+    display: flex;
+    justify-content: center;
+    div {
+        img {
+            margin: 0 10px;
+            width: 50px;
+        }
+    }
+}
+
+.footer__text{
+    font-family: $secondary-font;
+    font-size: 1.1em;
+    color: $primary-font-color;
+    text-align: center;
+}

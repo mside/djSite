@@ -805,6 +805,16 @@ h4 {
 }
 
 /* line 54, ../sass/variables/_typography.scss */
+h5 {
+  font-family: "gravity-light", Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  color: #d3d2d2;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* line 63, ../sass/variables/_typography.scss */
 p {
   font-family: "gravity-light", Arial, Helvetica, sans-serif;
   font-size: 1.25em;
@@ -982,6 +992,11 @@ p {
   color: white;
 }
 
+/* line 29, ../sass/components/_hero.scss */
+.hero__primary--gallery {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/hero02.jpg);
+}
+
 /* line 1, ../sass/components/_footer.scss */
 .footer__upArrow {
   padding: 10px;
@@ -993,4 +1008,28 @@ p {
 /* line 7, ../sass/components/_footer.scss */
 .footer__upArrow a {
   text-decoration: none;
+}
+
+/* line 12, ../sass/components/_footer.scss */
+.footer__socialBar {
+  display: flex;
+  justify-content: center;
+}
+/* line 16, ../sass/components/_footer.scss */
+.footer__socialBar div img {
+  margin: 0 10px;
+  width: 50px;
+}
+
+/* line 23, ../sass/components/_footer.scss */
+.footer__text {
+  font-family: "gravity-light", Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  color: #d3d2d2;
+  text-align: center;
+}
+
+/* line 1, ../sass/components/_gallery.scss */
+img {
+  width: 100%;
 }
