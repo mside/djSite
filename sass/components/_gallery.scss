@@ -1,3 +1,18 @@
-img {
-    width: 100%;
+.grid-item {
+    margin: 15px 0;
+}
+
+.grid-item-content {
+    max-height: 240px;
+    // border: 2px solid hsla(0, 0%, 0%, 0.5);
+    @include borderRadius(5);
+    overflow: hidden;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.grid-item-content--height2 {
+    max-height: 480px;
 }

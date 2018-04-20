@@ -1,0 +1,16 @@
+.contactContainer__Primary {
+    img {
+        width: 100%;
+        @include borderRadius(20);
+    }
+    p {
+        font-family: $secondary-font;
+        font-size: 1.5em;
+        color: $primary-font-color;
+        line-height: 1.3;
+    }
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+}

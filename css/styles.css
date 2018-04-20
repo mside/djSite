@@ -997,6 +997,26 @@ p {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/hero02.jpg);
 }
 
+/* line 38, ../sass/components/_hero.scss */
+.hero__primary--contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/hero03.jpg);
+}
+
+/* line 47, ../sass/components/_hero.scss */
+.hero__primary--music {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/hero04.jpg);
+}
+
+/* line 56, ../sass/components/_hero.scss */
+.hero__primary--events {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/hero05.jpg);
+}
+
+/* line 65, ../sass/components/_hero.scss */
+.hero__primary--press {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/hero06.jpg);
+}
+
 /* line 1, ../sass/components/_footer.scss */
 .footer__upArrow {
   padding: 10px;
@@ -1030,6 +1050,45 @@ p {
 }
 
 /* line 1, ../sass/components/_gallery.scss */
-img {
+.grid-item {
+  margin: 15px 0;
+}
+
+/* line 5, ../sass/components/_gallery.scss */
+.grid-item-content {
+  max-height: 240px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* line 10, ../sass/components/_gallery.scss */
+.grid-item-content img {
+  height: 100%;
   width: 100%;
+}
+
+/* line 16, ../sass/components/_gallery.scss */
+.grid-item-content--height2 {
+  max-height: 480px;
+}
+
+/* line 2, ../sass/components/_contact.scss */
+.contactContainer__Primary img {
+  width: 100%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 6, ../sass/components/_contact.scss */
+.contactContainer__Primary p {
+  font-family: "gravity-light", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #d3d2d2;
+  line-height: 1.3;
+}
+/* line 12, ../sass/components/_contact.scss */
+.contactContainer__Primary iframe {
+  width: 100%;
+  height: 250px;
 }
