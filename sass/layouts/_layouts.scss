@@ -11,12 +11,13 @@
 .bodyContainer__primary {
     width: 100%;
     padding: 1.5em;
+    padding-top: 3em;
     @include linearGradient($dark-background-color, $light-background-color);
 }
 
 .bodyContainer__secondary {
     width: 100%;
-    padding: 1.5em;
+    padding: 3em 1.5em;
     @include linearGradient($light-background-color, $dark-background-color);
 }
 
@@ -28,6 +29,12 @@
         @include borderRadius(20);
         display: block;
         margin: 0 auto;
+    }
+}
+
+.img__secondary {
+    img {
+        @include borderRadius(20);
     }
 }
 

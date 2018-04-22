@@ -19,6 +19,7 @@
     font-size: 1.5em;
     color: $primary-font-color;
     margin-right: 6px;
+    text-align: center;
     &:hover {
         color: white;
     }
@@ -31,5 +32,12 @@
 
     .navbar-light .navbar-nav .nav-link {
         margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .navbar {
+        max-width: 800px;
+        width: 100%;
     }
 }

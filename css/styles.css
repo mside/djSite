@@ -837,6 +837,7 @@ p {
 .bodyContainer__primary {
   width: 100%;
   padding: 1.5em;
+  padding-top: 3em;
   background: #31353d;
   /* Old browsers */
   background: -moz-linear-gradient(top, #31353d 50%, #445878 50%);
@@ -849,10 +850,10 @@ p {
   /* IE6-9 */
 }
 
-/* line 17, ../sass/layouts/_layouts.scss */
+/* line 18, ../sass/layouts/_layouts.scss */
 .bodyContainer__secondary {
   width: 100%;
-  padding: 1.5em;
+  padding: 3em 1.5em;
   background: #445878;
   /* Old browsers */
   background: -moz-linear-gradient(top, #445878 50%, #31353d 50%);
@@ -865,11 +866,11 @@ p {
   /* IE6-9 */
 }
 
-/* line 23, ../sass/layouts/_layouts.scss */
+/* line 24, ../sass/layouts/_layouts.scss */
 .img__primary {
   margin: 1em 0;
 }
-/* line 25, ../sass/layouts/_layouts.scss */
+/* line 26, ../sass/layouts/_layouts.scss */
 .img__primary img {
   max-width: 300px;
   width: 100%;
@@ -880,15 +881,22 @@ p {
   margin: 0 auto;
 }
 
-/* line 34, ../sass/layouts/_layouts.scss */
+/* line 36, ../sass/layouts/_layouts.scss */
+.img__secondary img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 41, ../sass/layouts/_layouts.scss */
 .text--inline {
   max-width: 450px;
 }
-/* line 36, ../sass/layouts/_layouts.scss */
+/* line 43, ../sass/layouts/_layouts.scss */
 .text--inline h4 {
   display: inline-block;
 }
-/* line 40, ../sass/layouts/_layouts.scss */
+/* line 47, ../sass/layouts/_layouts.scss */
 .text--inline .text--right {
   float: right;
 }
@@ -1034,21 +1042,29 @@ p {
   font-size: 1.5em;
   color: #d3d2d2;
   margin-right: 6px;
+  text-align: center;
 }
-/* line 22, ../sass/components/_nav.scss */
+/* line 23, ../sass/components/_nav.scss */
 .navbar-light .navbar-nav .nav-link:hover {
   color: white;
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 28, ../sass/components/_nav.scss */
+  /* line 29, ../sass/components/_nav.scss */
   .nav-logo {
     margin-right: 20px;
   }
 
-  /* line 32, ../sass/components/_nav.scss */
+  /* line 33, ../sass/components/_nav.scss */
   .navbar-light .navbar-nav .nav-link {
     margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 39, ../sass/components/_nav.scss */
+  .navbar {
+    max-width: 800px;
+    width: 100%;
   }
 }
 /* line 1, ../sass/components/_hero.scss */
