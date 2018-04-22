@@ -1,0 +1,43 @@
+.contactContainer__Primary {
+    position: relative;
+    img {
+        position: relative;
+        width: 100%;
+        @include borderRadius(20);
+    }
+    p {
+        font-family: $secondary-font;
+        font-size: 1.5em;
+        color: $primary-font-color;
+        line-height: 1.2;
+    }
+}
+
+.contact__social {
+    width: 50px;
+    div {
+        width: 50px;
+        margin: 0;
+        img {
+            position: absolute;
+            right: 0;
+            width: 50px;
+        }
+    }
+}
+
+.verticalIcon01 {
+    top: 17%;
+}
+
+.verticalIcon02 {
+    top: 34%;
+}
+
+.verticalIcon03 {
+    top: 51%;
+}
+
+.verticalIcon04 {
+    top: 68%;
+}
